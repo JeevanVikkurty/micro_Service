@@ -2,6 +2,7 @@ pipeline {
     agent any 
 
     environment {
+        MAVEN_HOME = tool 'Maven 3.8'
         DOCKER_IMAGE = "jeevanvikkurty/claims-app:V1"
     }
 
